@@ -8,15 +8,17 @@ You can try the live application here: [We will add the live link after deployme
 
 ## Screenshots & Demo
 
-*(We will replace these placeholders with your actual screenshots after deployment)*
-
 ### Landing Page
+<img width="1901" height="969" alt="Image" src="https://github.com/user-attachments/assets/1e618b73-913e-4c23-a651-c59259582ce8" />
 
 ### Main Application Dashboard
+<img width="1919" height="962" alt="Image" src="https://github.com/user-attachments/assets/d0204f23-3c52-4f70-92b2-06fbea2e6d45" />
 
 ### AI-Powered Task Suggestions
+<img width="1651" height="394" alt="Image" src="https://github.com/user-attachments/assets/79c72450-513e-4964-bccf-f542c4a20a06" />
 
 ### Productivity Analytics Dashboard
+<img width="1919" height="577" alt="Image" src="https://github.com/user-attachments/assets/b8dc7d90-bf6e-43a8-8354-0b042e13bfba" />
 
 ## Core Features
 
