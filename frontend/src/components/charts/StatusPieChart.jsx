@@ -1,10 +1,12 @@
 import React from 'react';
-import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from 'recharts';
+import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 
 const StatusPieChart = ({ data }) => {
-  // Don't render the chart if there's no data
-  if (!data || data.length === 0 || data.every(d => d.value === 0)) {
-    return <p className="text-center text-slate-500">No status data to display.</p>;
+  // Check if there is any actual data to display
+  const hasData = data && data.some(d => d.value > 0);
+
+  if (!hasData) {
+    return <p className="text-center text-slate-500 py-10">No task status data to display yet.</p>;
   }
 
   return (
@@ -18,16 +20,19 @@ const StatusPieChart = ({ data }) => {
           cy="50%"
           outerRadius={100}
           fill="#8884d8"
-          label
+          // We remove the label from here to avoid visual clutter
         >
           {data.map((entry, index) => (
             <Cell key={`cell-${index}`} fill={entry.color} />
           ))}
         </Pie>
         <Tooltip formatter={(value) => `${value} tasks`} />
+        {/* The legend clearly labels what each color represents */}
+        <Legend /> 
       </PieChart>
     </ResponsiveContainer>
   );
 };
 
 export default StatusPieChart;
+
