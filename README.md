@@ -18,6 +18,7 @@ You can try the live application here: [We will add the live link after deployme
 <img width="1651" height="394" alt="Image" src="https://github.com/user-attachments/assets/79c72450-513e-4964-bccf-f542c4a20a06" />
 
 ### Productivity Analytics Dashboard
+<img width="1919" height="577" alt="Image" src="https://github.com/user-attachments/assets/b8dc7d90-bf6e-43a8-8354-0b042e13bfba" />
 
 ## Core Features
 
