@@ -4,8 +4,7 @@ A full-stack, AI-powered task management application designed to help users opti
 
 ## Live Demo
 
-You can try the live application here: [We will add the live link after deployment!]
-
+You can try the live application here: [https://smart-task-planner-rho.vercel.app/](https://smart-task-planner-rho.vercel.app/)
 ## Screenshots & Demo
 
 ### Landing Page
