@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f1f5f9; /* This is Tailwind's slate-100 color */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Revert date picker icon style for light mode */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: none;
+}
+
