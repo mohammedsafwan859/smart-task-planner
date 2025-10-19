@@ -1,90 +1,109 @@
-Smart Task Planner with AI Suggestions
-An intelligent, full-stack task management application that helps users optimize productivity through AI-powered task prioritization. Built with a secure backend, dynamic React frontend, and an intelligent suggestion engine powered by Groq AI.
-Live Demo: Link to Deployed App - Coming Soon!
+# Smart Task Planner - AI-Powered Productivity App
 
-🎯 Key Features
+A full-stack, AI-powered task management application designed to help users optimize their productivity. This project features a complete user authentication system, an intelligent suggestion engine using the Groq AI platform, and a comprehensive analytics dashboard.
 
-AI-Powered Prioritization — Leverages Groq AI (Llama 3) to analyze pending tasks and generate a prioritized completion sequence with detailed rationale for each suggestion.
-Secure User Authentication — Robust registration and login system using JSON Web Tokens (JWT) with encrypted passwords via bcrypt, ensuring all user data remains private and protected.
-Complete Task Management — Full CRUD operations with an intuitive interface for creating, reading, updating, and deleting tasks. All changes are reflected instantly across the application.
-Productivity Analytics Dashboard — Visualize key metrics including task completion rates, priority distribution, and progress trends with responsive, interactive charts.
-Advanced Filtering & Search — Instantly filter tasks by status (Pending/Completed), search by title or description, and sort by due date or priority level.
-Professional UI/UX — Modern, fully responsive design featuring a polished landing page, smooth skeleton loaders during data fetching, and confirmation modals for critical actions.
+## Live Demo
 
+You can try the live application here: [We will add the live link after deployment!]
 
-📸 Screenshots
-(Coming after deployment)
+## Screenshots & Demo
 
-Landing Page
-Dashboard View
-AI Suggestions
-Analytics Dashboard
+*(We will replace these placeholders with your actual screenshots after deployment)*
 
+### Landing Page
 
-🛠️ Technology Stack
-Frontend
+### Main Application Dashboard
 
-React 18 with Hooks
-Vite — Fast build tool and dev server
-React Router — Client-side routing
-Tailwind CSS — Modern utility-first styling
-Axios — HTTP client for API requests
-Recharts — Interactive data visualization
+### AI-Powered Task Suggestions
 
-Backend
+### Productivity Analytics Dashboard
 
-Node.js & Express.js — REST API framework
-MongoDB Atlas with Mongoose — Database and ODM
-JWT — Secure authentication
-bcrypt.js — Password hashing
-express-validator — Input validation
+## Core Features
 
-AI & Deployment
+🤖 **AI-Powered Prioritization**: Utilizes the Groq AI platform to analyze tasks based on priority, due date, and category, providing an intelligent, prioritized completion sequence with clear rationale.
 
-Groq API with Llama 3 — AI task prioritization
-Render — Backend deployment
-Vercel — Frontend deployment
+🔐 **Full User Authentication**: Secure user registration and login system using JSON Web Tokens (JWT). Passwords are encrypted using bcryptjs, and API routes are protected.
 
+📊 **Productivity Analytics**: A dedicated dashboard visualizes key metrics like task completion rates and priority breakdowns with responsive charts built using Recharts.
 
-🚀 Local Setup & Installation
-Prerequisites
-Ensure you have Node.js and npm installed on your system.
-1. Clone the Repository
-bashgit clone https://github.com/mohammedsafwan859/smart-task-planner.git
+⚙️ **Comprehensive Task Management**: Full CRUD (Create, Read, Update, Delete) functionality for tasks with a clean, intuitive, and responsive user interface.
+
+✨ **Dynamic UI & UX**: Includes dynamic filtering, sorting, and searching, professional toast notifications, skeleton loaders for a smooth experience, and confirmation modals for critical actions.
+
+## Tech Stack
+
+### Frontend
+- React 18 (with Hooks)
+- Vite
+- React Router
+- Tailwind CSS
+- Axios
+- Recharts
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB Atlas (with Mongoose)
+- JSON Web Tokens (JWT)
+- bcryptjs
+- express-validator
+
+### AI & Deployment
+- Groq API
+- Vercel (Frontend Hosting)
+- Render (Backend Hosting)
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+### Prerequisites
+- Node.js installed on your machine
+- A MongoDB Atlas account and connection string
+- A Groq API Key
+
+### Installation & Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/mohammedsafwan859/smart-task-planner.git
 cd smart-task-planner
-2. Backend Setup
-bashcd backend
+```
 
-# Install dependencies
+2. Setup the Backend:
+```bash
+cd backend
 npm install
+```
 
-# Create a .env file with the following variables:
-# MONGO_URI=your_mongodb_connection_string
-# GROQ_API_KEY=your_groq_api_key
-# JWT_SECRET=your_jwt_secret_key
+Create a .env file in the backend directory and add the following variables:
+```
+MONGO_URI=YOUR_MONGODB_CONNECTION_STRING
+GROQ_API_KEY=YOUR_GROQ_API_KEY
+JWT_SECRET=YOUR_JWT_SECRET_KEY
+```
 
-# Start the backend server
+3. Setup the Frontend:
+```bash
+cd ../frontend
+npm install
+```
+(No .env file is needed for local development on the frontend)
+
+4. Run the application:
+
+In one terminal, start the backend server (from the backend directory):
+```bash
 npm start
-The backend will run on http://localhost:5000 (or your configured port).
-3. Frontend Setup
-bash# From the root directory, navigate to frontend
-cd frontend
+```
 
-# Install dependencies
-npm install
-
-# Start the development server
+In another terminal, start the frontend development server (from the frontend directory):
+```bash
 npm run dev
-The application will be available at http://localhost:5173.
+```
 
-📝 Environment Variables
-Create a .env file in the backend directory with:
-MONGO_URI=your_mongodb_atlas_connection_string
-GROQ_API_KEY=your_groq_api_key
-JWT_SECRET=your_secure_jwt_secret
+Open http://localhost:5173 in your browser.
 
-🤝 Contributing
-Contributions are welcome! Feel free to fork the repository and submit pull requests for any improvements.
+## Author
 
-📄 License
-This project is open source and available under the MIT License.
+Mohammed Safwan - [mohammedsafwan859](https://github.com/mohammedsafwan859)
